@@ -73,10 +73,10 @@
 
 
 
-    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    <link rel="stylesheet" href="" {{asset('assets/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css')}}"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    <link rel="stylesheet" href="" {{asset('assets/ajax/libs/font-awesome/5.14.0/css/all.min.css')}}"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" />
 
@@ -85,7 +85,7 @@
 
     <!-- Global JS -->
     <!--<script src="https://kx-ilyn-shop-s3.s3.amazonaws.com/static/js/jquery-3.4.1.min.js"></script>-->
-    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    <script src="" {{asset('assets/ajax/libs/jquery/3.5.1/jquery.min.js')}}"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
 
@@ -99,8 +99,7 @@
 
 
 
-    <link rel="stylesheet"
-        href="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/css/filters_design.c59ba2a0f7b8.css" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets//static/CACHE/css/filters_design.c59ba2a0f7b8.css')}}" type="text/css">
     <style>
         .breadcrumb-nav a {
             text-transform: none;
@@ -155,7 +154,7 @@
 
         .product-card-thumbnail.list-no-image {
             visibility: visible;
-            background-image: url("https://kx-ilyn-shop-s3.s3.amazonaws.com/static/images/logos/ILLIYEEN-Logo-Black.svg");
+            background-image: url("{{asset('assets/static/images/logos/ILLIYEEN-Logo-Black.svg')}}");
             background-size: 50px;
             background-position: center;
             background-repeat: no-repeat;
@@ -248,14 +247,13 @@
             </button>
 
             <a href="../index.html">
-                <img src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/images/ILLIYEEN-Logo3.png" alt="ILLIYEEN"
-                    class="logo_scroll" id="logo_scroll">
+                <img src="{{asset('assets/static/images/ILLIYEEN-Logo3.png')}}" alt="ILLIYEEN" class="logo_scroll"
+                    id="logo_scroll">
             </a>
 
             <div class="logo_container" align="center">
                 <a href="../index.html">
-                    <img src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/images/ILLIYEEN-Logo2.png" alt="ILLIYEEN"
-                        id="logo">
+                    <img src="{{asset('assets/static/images/ILLIYEEN-Logo2.png')}}" alt="ILLIYEEN" id="logo">
                 </a>
             </div>
         </div>
@@ -1056,8 +1054,8 @@
                 <i class="icon-close"></i>
             </button>
             <div class="menu-logo-container">
-                <img src="https://kx-ilyn-shop-s3.s3.amazonaws.com/static/images/logos/ILLIYEEN-Logo-Black.svg"
-                    alt="ILLIYEEN" id="white-logo">
+                <img src="{{asset('assets/static/images/logos/ILLIYEEN-Logo-Black.svg')}}" alt="ILLIYEEN"
+                    id="white-logo">
             </div>
             <ul class="offcanvas-full-screen-menu">
 
@@ -1198,22 +1196,22 @@
 
 
 
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/what_input.19cb80b5ed5b.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/foundation.086b3ebe5434.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/app.d232f50739e5.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/vanilla_lazyload.9d668dd09bff.js"></script>
+    <script src="{{asset('assets/static/CACHE/js/what_input.19cb80b5ed5b.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/foundation.086b3ebe5434.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/app.d232f50739e5.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/vanilla_lazyload.9d668dd09bff.js')}}"></script>
 
 
 
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/validate.78867c713555.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/validate.be4289545db5.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/intltelinput.957bd4a96b85.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/login_modal.ba026f612c2d.js"></script>
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/cart.0bd259d17a34.js"></script>
+    <script src="{{asset('assets/static/CACHE/js/validate.78867c713555.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/validate.be4289545db5.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/intltelinput.957bd4a96b85.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/login_modal.ba026f612c2d.js')}}"></script>
+    <script src="{{asset('assets/static/CACHE/js/cart.0bd259d17a34.js')}}"></script>
 
 
 
-    <script src="../../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    <script src="{{asset('assets/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js')}}"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous"></script>
 
@@ -1251,7 +1249,7 @@
 
 
 
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/filters.0dd1b8b53e40.js"></script>
+    <script src="{{asset('assets/static/CACHE/js/filters.0dd1b8b53e40.js')}}"></script>
 
     <script>
         var is_product_type_exists = true;
@@ -1311,7 +1309,7 @@
     </script>
 
     <!-- Page specific js block-->
-    <script src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/CACHE/js/products.be2b281ef84c.js"></script>
+    <script src="{{asset('assets/static/CACHE/js/products.be2b281ef84c.js')}}"></script>
 
 
     <!-- Global Window Loader -->
