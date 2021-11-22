@@ -219,12 +219,8 @@
         @yield('content')
     </div>
     <br>
-    <br> <br>
-    <br> <br>
-    <br>
-    <br>
-
     @include('footer.cfooter')
+    @include('footer.footer')
 
 
 
