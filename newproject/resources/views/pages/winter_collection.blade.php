@@ -34,14 +34,13 @@
         </button>
 
         <a href="../index.html">
-            <img src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/images/ILLIYEEN-Logo3.png" alt="ILLIYEEN"
-                class="logo_scroll" id="logo_scroll">
+            <img src="{{asset('assets/static/images/ILLIYEEN-Logo3.png')}}" alt="ILLIYEEN" class="logo_scroll"
+                id="logo_scroll">
         </a>
 
         <div class="logo_container" align="center">
             <a href="../index.html">
-                <img src="../../kx-ilyn-shop-s3.s3.amazonaws.com/static/images/ILLIYEEN-Logo2.png" alt="ILLIYEEN"
-                    id="logo">
+                <img src="{{asset('assets/static/images/ILLIYEEN-Logo2.png')}}" alt="ILLIYEEN" id="logo">
             </a>
         </div>
     </div>
@@ -839,8 +838,7 @@
             <i class="icon-close"></i>
         </button>
         <div class="menu-logo-container">
-            <img src="https://kx-ilyn-shop-s3.s3.amazonaws.com/static/images/logos/ILLIYEEN-Logo-Black.svg"
-                alt="ILLIYEEN" id="white-logo">
+            <img src="{{asset('assets/static/images/logos/ILLIYEEN-Logo-Black.svg')}}" alt="ILLIYEEN" id="white-logo">
         </div>
         <ul class="offcanvas-full-screen-menu">
 
@@ -3087,25 +3085,4 @@
         <div class="s-icon-line" id="bottom-line"></div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @endsection
-
