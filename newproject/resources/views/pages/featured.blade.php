@@ -692,8 +692,7 @@
             <i class="icon-close"></i>
         </button>
         <div class="menu-logo-container">
-            <img src="https://kx-ilyn-shop-s3.s3.amazonaws.com/static/images/logos/ILLIYEEN-Logo-Black.svg"
-                alt="ILLIYEEN" id="white-logo">
+            <img src="{{asset('assets/static/images/logos/ILLIYEEN-Logo-Black.svg')}}" alt="ILLIYEEN" id="white-logo">
         </div>
         <ul class="offcanvas-full-screen-menu">
 
