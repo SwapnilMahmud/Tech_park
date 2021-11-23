@@ -2100,3 +2100,9 @@
         <div class="s-icon-line" id="bottom-line"></div>
     </div>
 </div>
+
+
+<!-- Footer -->
+
+<footer class="footer-section">
+
